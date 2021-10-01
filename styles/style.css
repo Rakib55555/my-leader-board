@@ -3,7 +3,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
         
         /* common styles or utilities */
-        
+        body{
+            margin: 0%;
+        }
+        header{
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+            background-color: #562EFF;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .idea{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .icon{
+            width: 40px;
+            height: 51px;
+        }
+        .icon, .profile-pic{
+            cursor: pointer;
+        }
+        .icon-title{
+            color: #FFFFFF;
+        }
+        .nav-links li{
+            display: inline-block;
+            padding: 0% 20px;
+        }
+        .nav-links a{
+            color: #FFFFFF;
+        }
+        nav li, a{
+            text-decoration: none;
+            font-size: 16px;
+            list-style: none;
+        }
         body{
             font-family: 'Poppins', sans-serif;
             background-color: aliceblue;
